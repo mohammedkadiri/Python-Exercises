@@ -5,3 +5,4 @@ for x in numbers:
     total += x
 print(total)
 # 2. Write a Python program to multiplies all the items in a list.
+numbers
