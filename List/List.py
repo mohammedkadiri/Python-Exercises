@@ -23,3 +23,17 @@ total = 1
 #             count += 1
 #
 # print("count: " + str(count))
+#7. Write a Python program to remove duplicates from a list
+# sample = [1,2,4,1,2,4,5,3,5,6,2]
+# print(set(sample))
+# 8. Write a Python program to check a list is empty or not
+# a = []
+# if not a:
+#     if not a:
+#         print("list is empty")
+# else:
+#     print("list is not empty")
+# 9. Write a Python program to clone or copy a list
+# sample = [1,2,4,5]
+# # copy = sample.copy()
+# # print(copy)
