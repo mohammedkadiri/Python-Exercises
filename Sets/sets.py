@@ -25,3 +25,34 @@ print(num_set)
 num_set = set([0,1,2,3,4])
 num_set.discard(3)
 print(num_set)
+
+#Intersection of sets
+setx = set(["green","orange"])
+sety = set(["yellow","red"])
+
+intersection = setx & sety
+print(intersection)
+
+#Union of sets
+union = setx | sety
+print(union)
+
+#Set difference
+difference = setx - sety
+
+#Symmetric difference
+symdif = setx ^ sety
+
+#Subset
+issubset = setx <= sety
+print(issubset)
+
+#Superset
+issuperset = setx >= sety
+print(issuperset)
+
+#Clear Set
+set = set([1,2,3])
+new_set = set.copy()
+new_set.clear()
+print(new_set)
