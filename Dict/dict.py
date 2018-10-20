@@ -1,16 +1,34 @@
-#Empty dictionary
-dict = {}
-print(dict)
+# student = {'name': 'John', 'age':25, 'courses': ['Math','CompSci']}
+#
+# for key,value in student.items():
+#     print(key,value)
+#
+# def info(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
+#
+# info(19,{'name':'james'}, (1,2,3,4))
 
-# Get a value by a key in a dictionary
-dict = {"Name": "Joe", "Age": 19, "Height": 1.80}
-print(dict["Name"], dict["Height"])
-print(dict.get("Age"))
+# dic = {'one': 1, 'b': 'bee'}
+# dic.update({'two': 2})
+#
+# for key, value in dic.items():
+#     print(dic[key])
+#
+# if 'one' in dic:
+#     del dic['one']
+# print(dic)
 
-# Add a key/value to dict
-dict["DOB"] = "19 July 1999"
-print(dict)
+# for key in sorted(dic):
+#     print(key, dic[key])
 
-#Iterate over python dictionary
-for key, value in dict.items():
-    print(key, " : ", dict[key])
+# 1. Write a Python program to sort (ascending and descending) a dictionary by value.
+# import operator
+#
+# d = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+#
+# print('Original dictionary: ', d)
+# sorted_desc = sorted(d.items(), key= operator.itemgetter(0))
+# print('Dictionary in ascending order by value : ',sorted_desc)
+# sorted_asc= sorted(d.items(), key=operator.itemgetter(0), reverse=True)
+# print('Dictionary in descending order by value : ',sorted_asc)
