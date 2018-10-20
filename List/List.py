@@ -65,3 +65,9 @@ total = 1
 # color = [x for (i,x) in enumerate(color) if i not in (0,4,5)]
 #
 # print(color)
+# 13 Write a Python program to print the numbers of a specified list after removing even numbers from it.
+# numbers = list(range(0, 10))
+#
+# odd = [x for x in numbers if x % 2 != 0]
+#
+# print(odd)
