@@ -1,11 +1,11 @@
 # 1. Write a Python program to sum all the items in a list
-numbers = [1,2,3,4]
-total = 0
+# numbers = [1,2,3,4]
+# total = 0
 # for x in numbers:
 #     total += x
 # print(total)
 # 2. Write a Python program to multiplies all the items in a list.
-total = 1
+# total = 1
 # for x in numbers:
 #     total *= x
 # print
@@ -71,3 +71,27 @@ total = 1
 # odd = [x for x in numbers if x % 2 != 0]
 #
 # print(odd)
+
+# 14  Write a Python program to shuffle and print a specified list
+
+# from random import shuffle
+#
+# color = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+#
+# shuffle(color)
+#
+# print(color)
+
+# 15  Write a Python program to generate and print a list of first and last 5 elements where the values
+# are square of numbers between 1 and 30
+#
+# numbers = list(range(1, 31))
+# first_five = numbers[1:6]
+# last_five = numbers[25:]
+# new_list = first_five + last_five
+# new_list = [x*x for x in new_list]
+# print(new_list)
+
+# 16 Write a Python program to generate all permutations of a list in Python
+import itertools
+print(list(itertools.permutations([1,2,3])))
