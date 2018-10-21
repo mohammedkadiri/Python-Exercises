@@ -48,3 +48,46 @@
 # for x in (dic1,dic2,dic3):
 #     dict4.update(x)
 # print(dict4)
+
+# 4 Write a Python script to check if a given key already exists in a dictionary
+
+# d = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+#
+# def is_key_present(x):
+#   if x in d:
+#       print('Key is present in the dictionary')
+#   else:
+#       print('Key is not present in the dictionary')
+# is_key_present(5)
+# is_key_present(9)
+
+# 5 Write a Python script to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x).
+
+#sample = dict()
+#
+# def temp(n):
+#     for x in range(1, n+1):
+#         sample[x] = x * x
+#     print(sample)
+# temp(5)
+
+# 6 Program to merge to dictionaries
+
+# d1 = {'a': 100, 'b': 200}
+# d2 = {'x': 300, 'y': 200}
+#
+# d = d1.copy()
+# d.update(d2)
+# print(d)
+
+# 7 Program to  sum all items in a dictionary
+
+# sum = 0
+# dict = {1: 1, 2: 2, 3: 3, 4: 4}
+#
+# for key, values in dict.items():
+#     sum += dict[key]
+# print(sum)
+
+
+
