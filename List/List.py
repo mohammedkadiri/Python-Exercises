@@ -93,5 +93,73 @@
 # print(new_list)
 
 # 16 Write a Python program to generate all permutations of a list in Python
-import itertools
-print(list(itertools.permutations([1,2,3])))
+# import itertools
+# print(list(itertools.permutations([1,2,3])))
+
+# 19. Write a Python program to get the difference between the two lists.
+# print(list(set(range(1,5)) - set(range(1,3))))
+
+# 20. Write a Python program access the index of a list.
+# l = [1,2,3,4]
+#
+# for index, value in enumerate(l):
+#     print(index, value)
+
+# 21. Write a Python program to convert a list of characters into a string
+# l = ['a', 'p', 'p', 'l', 'e']
+#  print("".join(l))
+
+# 22. Write a Python program to find the index of an item in a specified list.
+# l = ["blue", "orange", "black", "yellow", "brown"]
+# print(l.index("yellow"))
+
+# 23. Write a Python program to flatten a shallow list.
+# import itertools
+# original_list = [[2,4,3], [1,5,6], [9], [7,9,0]]
+# new_merged_list = list(itertools.chain(*original_list))
+# print(new_merged_list)
+
+#24 Write a Python program to append a list to the second list.
+#
+# list_one = list(range(1,4))
+# list_two = list(range(4,11))
+#
+# list_one.append(list_two)
+# print(list_one)
+
+# 25. Write a Python program to select an item randomly from a list.
+
+# import random
+# l = [1,2,3,4]
+# print(random.choice(l))
+
+# 26 Write a python program to check whether two lists are circularly identical.
+# list1 = [10, 10, 0, 0, 10]
+# list2 = [10, 10, 10, 0, 0]
+# list3 = [1, 10, 10, 0, 0]
+#
+# print('Compare list1 and list2')
+# print(' '.join(map(str, list2)) in ' '.join(map(str,list1 *2)))
+# print('Compare list1 and list3')
+# print(' '.join(map(str,list3)) in ' '.join(map(str, list1 * 2)))
+
+# 27. Write a Python program to find the second smallest number in a list.
+
+# l = [200, 800, 600, 700]
+# l.remove(min(l))
+# print(min(l))
+
+# 28. Write a Python program to find the second largest number in a list.
+
+# l = [200, 800, 600, 700]
+# l.remove(max(l))
+# print(max(l))
+
+# 29. Write a Python program to get unique values from a list
+# l = [10,10,2,30,60,70,2,4,60,4,3]
+# print(set(l))
+
+# 30. Write a Python program to get the frequency of the elements in a list.
+# l = [1,2,3,1,1,1,2,2,2,4]
+# d = {i:l.count(i) for i in l}
+# print(d)
