@@ -89,5 +89,43 @@
 #     sum += dict[key]
 # print(sum)
 
+# 9. Write a Python program to iterate over dictionaries using for loops
+# d = {1:5, 2:2, 3:3, 4:4}
+#
+# for x,y in d.items():
+#     print(x, y)
 
+# 11. Write a Python program to multiply all the items in a dictionary
+# d = {1: 5, 2: 2, 3: 3, 4: 4}
+# mul = 1
+# for x,y in d.items():
+#     mul *= y
+# print(mul)
 
+# 12. Write a Python program to remove a key from a dictionary.
+#
+# d = {1: 5, 2: 2, 3: 3, 4: 4}
+#
+# if 1 in d:
+#     del d[1]
+# print(d)
+
+# 13. Write a Python program to map two lists into a dictionary.
+#
+# l1 = [1,2,3,4]
+# l2 = [5,6,7,8]
+#
+# t = tuple(zip(l1,l2))
+# print(dict(t))
+
+# 14. Write a Python program to sort a dictionary by key
+# d = {1: 5, 2: 2, 3: 3, 4: 4, 0: 0, 6: 6, 5: 5}
+#
+# for key in sorted(d):
+#     print(key, d[key])
+
+# 15. Write a Python program to get the maximum and minimum value in a dictionary.
+
+my_dict = {'x':500, 'y':5874, 'z': 560}
+print(max(my_dict.values()))
+print(min(my_dict.values()))
