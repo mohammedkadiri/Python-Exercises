@@ -1,2 +1,6 @@
+# Ignore all files ending with xml
 *.xml
+
+# Ignore everything from idea folder
+.idea/*
 
